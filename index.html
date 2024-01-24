@@ -8,6 +8,7 @@
 </head>
 <body>
 
+  <div class="container">
   <header>
   <h1>AI Quote Generator</h1>
 </header>
@@ -21,16 +22,18 @@
   autofocus
   required
   autocomplete="off"
+
+  class="instructions"
   />
-  <input type="submit" />
+  <input type="submit" class="submit-btn"/>
 </form>
 
-<div>
+<div class="quote">
 
 “Do the best you can until you know better. 
 <br />
 
-Then when you know better, do better. ~ Maya Angelou
+Then when you know better, do better." ~ Maya Angelou
 
 </div>
 
@@ -39,6 +42,7 @@ Then when you know better, do better. ~ Maya Angelou
 
 </main>
 
+
   <footer>
 
 <a href="https://github.com/Rae40/quotes-generator" target="_blank" >Open sourced</a> project coded by 
@@ -46,6 +50,7 @@ Then when you know better, do better. ~ Maya Angelou
 Hosted on <a href="https://ai-quote-generator-renee.netlify.app/" target="_blank">Netlify.</a>
 
   </footer>
+  </div>
 
   <script src="src/index.js"></script>
 </body>
