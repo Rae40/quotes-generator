@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <link rel="stylesheet" href="src/style.css" />
   <title>AI Quote Generator</title>
 </head>
@@ -16,7 +17,7 @@
 
 <main>
 
-<form>
+<form id="quote-generator-form">
   <input type="text" 
   placeholder="What would you like the quote to be about?" 
   autofocus
@@ -28,7 +29,7 @@
   <input type="submit" class="submit-btn"/>
 </form>
 
-<div class="quote">
+<div class="quote" id="quote2">
 
 “Do the best you can until you know better. 
 <br />
