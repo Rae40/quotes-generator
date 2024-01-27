@@ -55,6 +55,11 @@ margin-bottom: 25px;
   color: #dca7dc;
 }
 
+.submit-btn:hover{
+  background-color: #dca7dc;
+  color: #EFEFEF ;
+}
+
 .quote{
   font-size: 16px;
   background-color: #ffff;
@@ -62,6 +67,10 @@ margin-bottom: 25px;
   line-height: 2;
   border-left: 3px solid #cc55cc;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+
+.quote strong{
+  color:#dca7dc;
 }
 
 footer{
